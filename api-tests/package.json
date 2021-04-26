@@ -1,0 +1,23 @@
+{
+    "name": "proj-api-mocha-supertest",
+    "version": "1.0.0",
+    "description": "A JS api test framework with Mocha and Supertest ",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha ./*.js --timeout 6000",
+        "test-report": "mocha ./*.js --timeout 6000 --reporter mocha-junit-reporter --reporter-options mochaFile=./results/report.xml"
+    },
+    "author": "Olu",
+    "license": "ISC",
+    "devDependencies": {
+        "body-parser": "^1.19.0",
+        "chai": "^3.5.0",
+        "mocha": "^7.0.0",
+        "mocha-junit-reporter": "^1.23.3",
+        "superagent": "^5.2.1",
+        "supertest": "^3.0.0"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
