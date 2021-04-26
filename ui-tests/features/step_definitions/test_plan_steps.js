@@ -17,7 +17,7 @@ When('user enters {string} in the name field', async function (string) {
     await testController.typeText(nameField, string);
 });
 
-When('user clicks on submit button', async function () {
+When('user clicks on Submit button', async function () {
     const submitButton = testPlanPage1.elements.submitBtn();  
     await testController.click(submitButton);
 });
