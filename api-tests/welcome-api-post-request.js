@@ -47,26 +47,26 @@ describe('Given a request is sent to the correct endpoint', function() {
         if (err) return done(err);
         // var i;
             for (var i = 0; i < 6; i++) {
-                if (res.body.customers[i].employees <= 10)
+                if (res.body.customers[i].employees <= 100)
                     try {
                         expect(res.body.customers[i]).to.have.property("size","Small");
                         throw err
                     } catch (err) {
-                        console.log(err)
+                        // console.log(err)
                     }
-                else if (res.body.customers[i].employees <= 1000)
+                else if (res.body.customers[i].employees >10 && res.body.customers[i].employees <= 1000)
                     try {
                         expect(res.body.customers[i]).to.have.property("size","Medium");
                         throw err
                     } catch (err) {
-                        console.log(err)
+                        // console.log(err)
                     }
                 else  (res.body.customers[i].employees > 1000)
                     try {
                         expect(res.body.customers[i]).to.have.property("size","Big");
                         throw err
                     } catch (err) {
-                        console.log(err)
+                        // console.log(err)
                     }
             }
             done()

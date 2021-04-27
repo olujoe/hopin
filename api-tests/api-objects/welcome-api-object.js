@@ -6,7 +6,6 @@ class WelcomeAPI {
         this.port = '3001';
         this.path = '/';
         this.method = 'post';
-
     }
 }
 
