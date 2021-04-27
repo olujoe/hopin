@@ -63,9 +63,11 @@ Before(function() {
 // After hook runs after each Cucumber test. It is used to unlink the test and make testController "null".
 // It calls the testControllerHolder.free function. 
 After(function() {
-    fs.unlinkSync('cucumbertest.js');
-    testControllerHolder.free();
+    // fs.unlinkSync('cucumbertest.js');
+    // testControllerHolder.free();
+    return testController.location.reload(true);
 });
+
 
 // AfterAll hook runs after all the tests execution. It check the last runs status to be "test-done-confirmation",
 // and then, close the cafeRunner and exit the process.
@@ -73,7 +75,7 @@ After(function() {
 AfterAll(function() {
     let intervalId = null;
     function waitForTestCafe() {
-        intervalId = setInterval(checkLastResponse, 500);
+        intervalId = setInterval(checkLastResponse, 1000);
     }
     function checkLastResponse() {
         if (testController.testRun.lastDriverStatusResponse === 'test-done-confirmation') {
