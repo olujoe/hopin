@@ -64,8 +64,7 @@ Before(function() {
 // It calls the testControllerHolder.free function. 
 After(function() {
     fs.unlinkSync('cucumbertest.js');
-    testControllerHolder.free();
-    // return testController.location.reload(true);
+    // testControllerHolder.free();
 });
 
 // AfterAll hook runs after all the tests execution. It check the last runs status to be "test-done-confirmation",

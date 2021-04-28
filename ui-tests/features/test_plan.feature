@@ -26,10 +26,18 @@ Feature: Customers App web application is aimed to our sales people so that they
 Scenario: Welcome Screen test user name text only John Doe
     Given user navigates to the Customer App page
     When user enters "John Doe" in the name field
-    And user clicks on Submit button
-    Then Welcome to Customer App page with customer "John Doe" appears
-    And I display any errors in the tables
+    When user clicks on Submit button
+    And Welcome to Customer App page with customer "John Doe" appears
+    Then I display any errors in the tables
 
+
+Scenario: Select a company test 
+    Given user navigates to the Customer App page
+    When user enters "John Doe" in the name field
+    And user clicks on Submit button
+    When Welcome to Customer App page with customer "John Doe" appears
+    Then I can view Customer Details from the list
+    And I can return to the list page
 
 # Scenario: Welcome Screen test user name text with numbers Robot101
 #     Given user navigates to the Customer App page

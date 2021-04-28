@@ -12,5 +12,8 @@ exports.elements = {
     },
     submitBtn: function() {
         return Selector('input[value="Submit"]').with({ boundTestRun: testController });
+    },
+    messageElement: function() {
+        return Selector('#article-header').with({ boundTestRun: testController });
     }
 }
