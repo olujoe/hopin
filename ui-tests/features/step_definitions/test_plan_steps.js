@@ -26,3 +26,43 @@ Then('Welcome to Customer App page with customer {string} appears', async functi
     const messageElement = testPlanPage2.elements.messageElement();
     await testController.expect(messageElement.innerText).contains(string);
 });
+
+// Then('A pop up window appears with {string} message', function (string) {
+//     // Write code here that turns the phrase above into concrete actions
+//     return 'pending';
+// });
+
+Then('I display any errors in the tables', async function() {
+    const table         = Selector('table');
+    const dataRows      = table.find('tbody > tr');
+    const dataRowCount  = dataRows.count;
+
+    for (let i = 0; i < dataRowCount; i++) {
+        const currentRow   = dataRows.nth(i);
+        const fullNameCell1 = currentRow.child('td').nth(0);
+        const fullNameCell2 = currentRow.child('td').nth(1);
+        const fullNameCell3 = currentRow.child('td').nth(2);
+        
+        if ( await expect(parseInt(fullNameCell2.textContent)) <= 100 )
+            try {
+                await expect(fullNameCell3.textContent).contains('Small');
+                throw err
+            } catch (err) {
+                console.log(err)
+            } 
+        else if ( await expect(parseInt(fullNameCell2.textContent)) > 10 && expect(parseInt(fullNameCell2.textContent)) < 1000 )
+            try {
+                await expect(fullNameCell3.textContent).contains('Medium');
+                throw err
+            } catch (err) {
+                console.log(err)
+            }
+        else ( await expect(parseInt(fullNameCell2.textContent)) > 1000 )
+            try {
+                await expect(fullNameCell3.textContent).contains('Big');
+                throw err
+            } catch (err) {
+                console.log(err)
+        }  
+    } 
+});

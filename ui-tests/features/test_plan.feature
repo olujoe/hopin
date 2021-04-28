@@ -9,21 +9,18 @@ Feature: Customers App web application is aimed to our sales people so that they
 #     Given user navigates to the Customer App page
 #     When user enters <name> in the name field
 #     And user clicks on Submit button
-#     Then Welcome to Customer App page with customer <message> appears
+#     Then Welcome to Customer App page with customer <name> appears
 
 # Examples:
-#     | name          | message         |
-#     | "John Doe"    | default message |
-#     | " "           | default message |
-#     | "!@£@£$$%^%&" | default message |
-#     | "*.*"         | default message |
-#     | "42"          | default message |
-#     | "Robot101"    | default message |
-#     | ""            | alert message   |
-
-
-# Background:
-#     Given user navigates to the Customer App page
+#     | name                                                                        | 
+#     | "John Doe"                                                                  | 
+#     | "John_iwdbfiberfijberibfijebrvijbv Doe_iebwficberfiberiubvuiebfvubefuivbfe" |
+#     | " "                                                                         | 
+#     | "!@£@£$$%^%&"                                                               | 
+#     | "*.*"                                                                       | 
+#     | "42"                                                                        | 
+#     | "Robot101"                                                                  | 
+#     | ""                                                                          | 
 
 
 Scenario: Welcome Screen test user name text only John Doe
@@ -31,50 +28,52 @@ Scenario: Welcome Screen test user name text only John Doe
     When user enters "John Doe" in the name field
     And user clicks on Submit button
     Then Welcome to Customer App page with customer "John Doe" appears
+    And I display any errors in the tables
 
 
-Scenario: Welcome Screen test user name text with numbers Robot101
-    Given user navigates to the Customer App page
-    When user enters "Robot101" in the name field
-    And user clicks on Submit button
-    Then Welcome to Customer App page with customer "Robot101" appears
+# Scenario: Welcome Screen test user name text with numbers Robot101
+#     Given user navigates to the Customer App page
+#     When user enters "Robot101" in the name field
+#     And user clicks on Submit button
+#     Then Welcome to Customer App page with customer "Robot101" appears
 
 
-Scenario: Welcome Screen test user name numbers only 10101010
-    Given user navigates to the Customer App page
-    When user enters "10101010" in the name field
-    And user clicks on Submit button
-    Then Welcome to Customer App page with customer "10101010" appears
+# Scenario: Welcome Screen test user name numbers only 10101010
+#     Given user navigates to the Customer App page
+#     When user enters "10101010" in the name field
+#     And user clicks on Submit button
+#     Then Welcome to Customer App page with customer "10101010" appears
 
 
-Scenario: Welcome Screen test user name very long text only John Doe
-    Given user navigates to the Customer App page
-    When user enters "John_iwdbfiberfijberibfijebrvijbv Doe_iebwficberfiberiubvuiebfvubefuivbfe" in the name field
-    And user clicks on Submit button
-    Then Welcome to Customer App page with customer "John Doe" appears
-
-Scenario: Welcome Screen test no text just a single space
-    Given user navigates to the Customer App page
-    When user enters " " in the name field
-    And user clicks on Submit button
-    Then Welcome to Customer App page with customer " " appears
+# Scenario: Welcome Screen test user name very long text only John Doe
+#     Given user navigates to the Customer App page
+#     When user enters "John_iwdbfiberfijberibfijebrvijbv Doe_iebwficberfiberiubvuiebfvubefuivbfe" in the name field
+#     And user clicks on Submit button
+#     Then Welcome to Customer App page with customer "John Doe" appears
 
 
-Scenario: Welcome Screen test no text just a long space
-    Given user navigates to the Customer App page
-    When user enters "                                 " in the name field
-    And user clicks on Submit button
-    Then Welcome to Customer App page with customer "                                 " appears
+# Scenario: Welcome Screen test no text just a single space
+#     Given user navigates to the Customer App page
+#     When user enters " " in the name field
+#     And user clicks on Submit button
+#     Then Welcome to Customer App page with customer " " appears
 
 
-Scenario: Welcome Screen test other characters
-    Given user navigates to the Customer App page
-    When user enters "!@£$%^&*()_-+|" in the name field
-    And user clicks on Submit button
-    Then Welcome to Customer App page with customer "!@£$%^&*()_-+|" appears
+# Scenario: Welcome Screen test no text just a long space
+#     Given user navigates to the Customer App page
+#     When user enters "                                 " in the name field
+#     And user clicks on Submit button
+#     Then Welcome to Customer App page with customer "                                 " appears
 
 
-Scenario: Welcome Screen test no name input just clicking submit
-    Given user navigates to the Customer App page
-    And user clicks on Submit button
-    Then A pop up window appears with "Please provide your name" message
+# Scenario: Welcome Screen test other characters
+#     Given user navigates to the Customer App page
+#     When user enters "!@£$%^&*()_-+|" in the name field
+#     And user clicks on Submit button
+#     Then Welcome to Customer App page with customer "!@£$%^&*()_-+|" appears
+
+
+# Scenario: Welcome Screen test no name input just clicking submit
+#     Given user navigates to the Customer App page
+#     And user clicks on Submit button
+#     Then A pop up window appears with "Please provide your name" message
