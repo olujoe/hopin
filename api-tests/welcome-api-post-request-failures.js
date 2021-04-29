@@ -34,4 +34,17 @@ describe('Given a request is sent to an incorrect endpoint', function() {
     });
   });
 
+  // *****************************************************************************
+  // *** For this test to work, please specify a path /'500' in the api server ***
+  // *****************************************************************************
+
+  // it('Then the api should return a 500 response code Internal Server Error', (done) => {
+  //   api.post('/500')
+  //       .expect(500)
+  //       .end(function (err, res) {
+  //       if (err) return done(err);
+  //       done();
+  //   });
+  // });
+
 });

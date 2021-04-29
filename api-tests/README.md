@@ -23,3 +23,9 @@ Hopin's Test and Automation Challenge
 
         % ./npm-install-api.sh && ./run-api-test.sh                
           
+## API Test solution explained
+The test has been kept simple so and split into two seperate test files
+ 
+        Happy path & Falure path
+
+The tests can easily be extended by specifying additional test within these two files.

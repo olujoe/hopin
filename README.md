@@ -58,3 +58,10 @@ Details of the test plan can be see
 
 ## If you really just want to go make a cup of tea then come back to see all the test run this command
         % ./run-npm-install-all.sh && ./run-all-tests.sh
+
+## UI Test solution explained
+The test has leveraged testcafe-cucumber reuse code to help speedup solutions delivery
+ 
+        with happy path & unhappy path mixed in on the same test feature file
+
+The tests can easily be extended by specifying additional test scenarios in the **test_plan.feature** file as well as supplying new code in the **test_plan_steps.js** file.
