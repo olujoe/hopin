@@ -1,2 +1,2 @@
 cd ui-tests
-npm test
+npm test-report

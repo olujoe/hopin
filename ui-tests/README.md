@@ -11,4 +11,4 @@ Hopin's Test and Automation Challenge
 3) Type **npm i** to install the required libraries
         % npm i
 4) Type **npm test** to start the test
-        % npm test
+        % npm test or % npm test-report
