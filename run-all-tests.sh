@@ -1,0 +1,1 @@
+./run-api-tests.sh && ./run-ui-tests.sh

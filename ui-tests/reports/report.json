@@ -1,0 +1,1224 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Customers App web application is aimed to our sales people so that they can have access to our customer's contact information",
+    "line": 6,
+    "id": "customers-app-web-application-is-aimed-to-our-sales-people-so-that-they-can-have-access-to-our-customer's-contact-information",
+    "tags": [],
+    "uri": "features/test_plan.feature",
+    "elements": [
+      {
+        "id": "customers-app-web-application-is-aimed-to-our-sales-people-so-that-they-can-have-access-to-our-customer's-contact-information;welcome-screen-test-and-customer-details-happy-path",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Welcome Screen test and customer details happy path",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigates to the Customer App page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters \"John Doe\" in the name field",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2896000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Welcome to Customer App page with customer \"John Doe\" appears",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I display any errors in the tables",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can view Customer Details from the list",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1055000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I can return to the list page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 644000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customers-app-web-application-is-aimed-to-our-sales-people-so-that-they-can-have-access-to-our-customer's-contact-information;welcome-screen-test-and-customer-details-happy-path",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Welcome Screen test and customer details happy path",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigates to the Customer App page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters \"John_iwdbfiberfijberibfijebrvijbv Doe_iebwficberfiberiubvuiebfvubefuivbfe\" in the name field",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Welcome to Customer App page with customer \"John_iwdbfiberfijberibfijebrvijbv Doe_iebwficberfiberiubvuiebfvubefuivbfe\" appears",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I display any errors in the tables",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13772000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can view Customer Details from the list",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I can return to the list page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 385000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customers-app-web-application-is-aimed-to-our-sales-people-so-that-they-can-have-access-to-our-customer's-contact-information;welcome-screen-test-and-customer-details-happy-path",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Welcome Screen test and customer details happy path",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigates to the Customer App page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters \" \" in the name field",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 757000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Welcome to Customer App page with customer \" \" appears",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I display any errors in the tables",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14035000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can view Customer Details from the list",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I can return to the list page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customers-app-web-application-is-aimed-to-our-sales-people-so-that-they-can-have-access-to-our-customer's-contact-information;welcome-screen-test-and-customer-details-happy-path",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Welcome Screen test and customer details happy path",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2753000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigates to the Customer App page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1064000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters \"!@£@£$$%^%&\" in the name field",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Welcome to Customer App page with customer \"!@£@£$$%^%&\" appears",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I display any errors in the tables",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11677000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can view Customer Details from the list",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I can return to the list page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 299000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customers-app-web-application-is-aimed-to-our-sales-people-so-that-they-can-have-access-to-our-customer's-contact-information;welcome-screen-test-and-customer-details-happy-path",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Welcome Screen test and customer details happy path",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2708000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigates to the Customer App page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 745000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters \"*.*\" in the name field",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Welcome to Customer App page with customer \"*.*\" appears",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I display any errors in the tables",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can view Customer Details from the list",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I can return to the list page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customers-app-web-application-is-aimed-to-our-sales-people-so-that-they-can-have-access-to-our-customer's-contact-information;welcome-screen-test-and-customer-details-happy-path",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Welcome Screen test and customer details happy path",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigates to the Customer App page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters \"42\" in the name field",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Welcome to Customer App page with customer \"42\" appears",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I display any errors in the tables",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can view Customer Details from the list",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I can return to the list page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customers-app-web-application-is-aimed-to-our-sales-people-so-that-they-can-have-access-to-our-customer's-contact-information;welcome-screen-test-and-customer-details-happy-path",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Welcome Screen test and customer details happy path",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigates to the Customer App page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1018000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters \"Robot101\" in the name field",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Welcome to Customer App page with customer \"Robot101\" appears",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I display any errors in the tables",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15842000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can view Customer Details from the list",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I can return to the list page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 343000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customers-app-web-application-is-aimed-to-our-sales-people-so-that-they-can-have-access-to-our-customer's-contact-information;welcome-screen-test-and-customer-details-happy-path",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Welcome Screen test and customer details happy path",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3503000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigates to the Customer App page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 898000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters \"\" in the name field",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:19"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 61000000,
+              "error_message": "Error: ActionStringArgumentError {\n  code: 'E16',\n  isTestCafeError: true,\n  callsite: CallsiteRecord {\n    filename: '/Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/features/step_definitions/test_plan_steps.js',\n    lineNum: 20,\n    callsiteFrameIdx: 6,\n    stackFrames: [\n      [Object], [Object],\n      [Object], [Object],\n      [Object], [Object],\n      [Object]\n    ],\n    isV8Frames: true\n  },\n  argumentName: 'text',\n  actualValue: '\"\"'\n}\n    at /Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/node_modules/cucumber/lib/user_code_runner.js:95:19\n    at Generator.throw (<anonymous>)\n    at asyncGeneratorStep (/Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/node_modules/cucumber/lib/user_code_runner.js:18:103)\n    at _throw (/Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/node_modules/cucumber/lib/user_code_runner.js:20:291)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:24"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Welcome to Customer App page with customer \"\" appears",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:29"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I display any errors in the tables",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:34"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can view Customer Details from the list",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:81"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I can return to the list page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:88"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customers-app-web-application-is-aimed-to-our-sales-people-so-that-they-can-have-access-to-our-customer's-contact-information;welcome-screen-test-and-customer-details-happy-path",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Welcome Screen test and customer details happy path",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigates to the Customer App page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters \"                                                                     \" in the name field",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Welcome to Customer App page with customer \"                                                                     \" appears",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:29"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 14017000000,
+              "error_message": "Error: ExternalAssertionLibraryError {\n  code: 'E53',\n  isTestCafeError: true,\n  callsite: CallsiteRecord {\n    filename: '/Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/features/step_definitions/test_plan_steps.js',\n    lineNum: 30,\n    callsiteFrameIdx: 6,\n    stackFrames: [\n      [Object], [Object],\n      [Object], [Object],\n      [Object], [Object],\n      [Object]\n    ],\n    isV8Frames: true\n  },\n  errMsg: \"AssertionError: expected 'Welcome to Customer App\\\\n\\\\nHi . It is now Thu Apr 29 2021 and here is our customer list. Click on each of them to view their contact details.\\\\n\\\\nName\\\\t# of Employees\\\\tSize\\\\nAmericas Inc.\\\\t10\\\\tSmall\\\\nCaribian Airlnis\\\\t1000\\\\tBig\\\\nMacroSoft\\\\t540\\\\tMedium\\\\nUnited Brands\\\\t20\\\\tSmall\\\\nBananas Corp\\\\t10000\\\\tBig\\\\nXPTO.com\\\\t102\\\\tMedium' to include '                                                                     '\",\n  diff: false\n}\n    at /Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/node_modules/cucumber/lib/user_code_runner.js:95:19\n    at Generator.throw (<anonymous>)\n    at asyncGeneratorStep (/Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/node_modules/cucumber/lib/user_code_runner.js:18:103)\n    at _throw (/Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/node_modules/cucumber/lib/user_code_runner.js:20:291)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I display any errors in the tables",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:34"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can view Customer Details from the list",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:81"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I can return to the list page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:88"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customers-app-web-application-is-aimed-to-our-sales-people-so-that-they-can-have-access-to-our-customer's-contact-information;welcome-screen-test-and-customer-details-unhappy-path",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Welcome Screen test and customer details Unhappy path",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "user navigates to the Customer App page",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "user enters \"John Doe\" in the name field",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "Welcome to Customer App page with customer \"John Doe\" appears",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I display any errors in the tables",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I can view broken Customer Details from the list",
+            "match": {
+              "location": "features/step_definitions/test_plan_steps.js:93"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1001000000,
+              "error_message": "Error: {\n  code: 'E1',\n  isTestCafeError: true,\n  callsite: CallsiteRecord {\n    filename: '/Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/features/step_definitions/test_plan_steps.js',\n    lineNum: 94,\n    callsiteFrameIdx: 6,\n    stackFrames: [\n      [Object], [Object],\n      [Object], [Object],\n      [Object], [Object],\n      [Object]\n    ],\n    isV8Frames: true\n  },\n  errStack: 'this.state.customer.contactInfo is undefined\\n' +\n    'render@http://localhost:3000/static/js/main.chunk.js:298:1\\n' +\n    'finishClassComponent@http://localhost:3000/static/js/0.chunk.js:21834:35\\n' +\n    'updateClassComponent@http://localhost:3000/static/js/0.chunk.js:21789:48\\n' +\n    'beginWork@http://localhost:3000/static/js/0.chunk.js:22777:20\\n' +\n    'performUnitOfWork@http://localhost:3000/static/js/0.chunk.js:26794:16\\n' +\n    'workLoop@http://localhost:3000/static/js/0.chunk.js:26835:28\\n' +\n    'callCallback@http://localhost:3000/static/js/0.chunk.js:6691:18\\n' +\n    'dispatchEvent@http://localhost:1337/hammerhead.js:13:25454\\n' +\n    'invokeGuardedCallbackDev@http://localhost:3000/static/js/0.chunk.js:6740:20\\n' +\n    'invokeGuardedCallback@http://localhost:3000/static/js/0.chunk.js:6794:35\\n' +\n    'replayUnitOfWork@http://localhost:3000/static/js/0.chunk.js:26018:30\\n' +\n    'renderRoot@http://localhost:3000/static/js/0.chunk.js:26948:33\\n' +\n    'performWorkOnRoot@http://localhost:3000/static/js/0.chunk.js:27872:21\\n' +\n    'performWork@http://localhost:3000/static/js/0.chunk.js:27782:28\\n' +\n    'performSyncWork@http://localhost:3000/static/js/0.chunk.js:27756:18\\n' +\n    'interactiveUpdates$1@http://localhost:3000/static/js/0.chunk.js:28041:11\\n' +\n    'interactiveUpdates@http://localhost:3000/static/js/0.chunk.js:8810:14\\n' +\n    'dispatchInteractiveEvent@http://localhost:3000/static/js/0.chunk.js:11604:25\\n' +\n    'zi@http://localhost:1337/hammerhead.js:2:15012\\n' +\n    'e/</Fm</t._getEventListenerWrapper/<@http://localhost:1337/hammerhead.js:13:13905\\n' +\n    'dispatchEvent@http://localhost:1337/hammerhead.js:13:25454\\n' +\n    'e/</pg</e.prototype._raiseDispatchEvent@http://localhost:1337/hammerhead.js:14:8610\\n' +\n    'e/</pg</e.prototype._dispatchMouseEvent@http://localhost:1337/hammerhead.js:14:6993\\n' +\n    'e/</pg</e.prototype._dispatchMouseRelatedEvents@http://localhost:1337/hammerhead.js:14:5772\\n' +\n    'a@http://localhost:1337/hammerhead.js:14:498\\n' +\n    'e/</pg</e.prototype._simulateEvent@http://localhost:1337/hammerhead.js:14:933\\n' +\n    'e/</pg</e.prototype.click@http://localhost:1337/hammerhead.js:14:8703\\n' +\n    'Ma/</Xo.prototype.run@http://localhost:1337/testcafe-automation.js:1:36771\\n' +\n    'Ma/</fr.prototype._click@http://localhost:1337/testcafe-automation.js:1:41547\\n' +\n    'Ma/</fr.prototype.run/<@http://localhost:1337/testcafe-automation.js:1:42010\\n' +\n    'i@http://localhost:1337/hammerhead.js:1:400\\n' +\n    'p@http://localhost:1337/hammerhead.js:1:984\\n' +\n    'u@http://localhost:1337/hammerhead.js:1:1021\\n' +\n    'r@http://localhost:1337/hammerhead.js:1:141\\n',\n  pageDestUrl: 'http://localhost:3000/'\n}\n    at /Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/node_modules/cucumber/lib/user_code_runner.js:95:19\n    at Generator.throw (<anonymous>)\n    at asyncGeneratorStep (/Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/node_modules/cucumber/lib/user_code_runner.js:18:103)\n    at _throw (/Users/olugbenga.ogunbusola/workspace/hopin/ui-tests/node_modules/cucumber/lib/user_code_runner.js:20:291)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

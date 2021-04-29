@@ -12,3 +12,5 @@ Hopin's Test and Automation Challenge
         % npm i
 4) Type **npm test** to start the test
         % npm test
+5) Alternatively skip step 2 to 4 and run the following scripts
+        % ./npm-install-api.sh && ./run-api-tests.sh               

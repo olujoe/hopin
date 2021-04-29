@@ -22,7 +22,7 @@ Details of the test plan can be see
 4) Type **npm test** to start the test
         % npm test
 5) Alternatively skip step 2 to 4 and run the following scripts
-        % ./npm-install-api.sh && ./run-ui-test.sh                
+        % ./npm-install-api.sh && ./run-api-test.sh                
 
 ## Task 4: Create an automated UI level test scenario ##
 1) From the command line enter the following
@@ -37,3 +37,6 @@ Details of the test plan can be see
         % npm test
 5) Alternatively skip step 2 to 4 and run the following scripts
         % ./npm-install-ui.sh && ./run-ui-test.sh        
+
+## If you really just want to go make a cup of tea then come back to see all the test run this command
+        % ./run-npm-install-all.sh && ./run-all-tests.sh
